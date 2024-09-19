@@ -1,7 +1,22 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import ProjectList from './components/ProjectList';
+import ThreeDScene from './components/ThreeDScene';
+// import Skills from './components/Skills';
+
 
 function App() {
+  return (
+    <div>
+      <h1>Cybersecurity Portfolio</h1>
+      <ThreeDScene />
+      <ProjectList />
+    </div>
+  );
+}
+
+/* function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +35,6 @@ function App() {
       </header>
     </div>
   );
-}
+} */
 
 export default App;
