@@ -10,8 +10,21 @@ function App() {
   return (
     <div>
       <h1>Cybersecurity Portfolio</h1>
-      <ThreeDScene />
+      <div> <ThreeDScene /> </div>
+      <div>
+        <button> 1 </button>
+        <button> 2 </button>
+      </div>
+
+      
+
+      
+
+      <div>
       <ProjectList />
+      </div>
+      
+
     </div>
   );
 }

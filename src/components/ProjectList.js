@@ -7,7 +7,10 @@ const ProjectList = () => {
 
   useEffect(() => {
     axios.get('/api/projects').then((response) => {
+      console.log('API response:', response.data); //log the data
       setProjects(response.data);
+    }).catch((error) => {
+      console.error('Error fetching projects:', error); //log any errors
     });
   }, []);
 
